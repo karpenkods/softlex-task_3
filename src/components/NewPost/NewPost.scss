@@ -1,0 +1,57 @@
+@import '../../index.scss';
+
+.new {
+  &__title {
+    width: 40vw;
+    height: 10vh;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: $colorSmokyWhite;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    font-size: 18px;
+    color: $colorText;
+    box-shadow: 5px 5px 8px 0px rgba(34, 60, 80, 0.5);
+    transition: 0.3s;
+    &:hover {
+      background-color: $colorBlue;
+    }
+    &:focus {
+      background-color: $colorBlue;
+    }
+  }
+
+  &__body {
+    width: 40vw;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: $colorSmokyWhite;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    font-size: 18px;
+    color: $colorText;
+    box-shadow: 5px 5px 8px 0px rgba(34, 60, 80, 0.5);
+    transition: 0.3s;
+    &:hover {
+      background-color: $colorBlue;
+    }
+    &:focus {
+      background-color: $colorBlue;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .new {
+    &__title {
+      width: 96%;
+      height: 7vh;
+    }
+
+    &__body {
+      width: 96%;
+    }
+  }
+}

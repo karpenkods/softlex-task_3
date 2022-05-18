@@ -1,0 +1,76 @@
+@import '../../index.scss';
+
+.list {
+  &__error {
+    margin-top: 50px;
+    text-align: center;
+    color: $colorTitian;
+  }
+
+  &__heading {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  &__buttonAdd {
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    background: none;
+    color: $colorText;
+    transition: 0.3s;
+    &:hover {
+      color: $colorBlue;
+      box-shadow: 5px 5px 8px 0px rgba(34, 60, 80, 0.5);
+    }
+    &:active {
+      box-shadow: none;
+    }
+    &:focus {
+      color: $colorBlue;
+    }
+  }
+
+  &__blockPosts {
+    padding: 15px 10px;
+    margin-bottom: 25px;
+    background-color: $colorSmokyWhite;
+    box-shadow: 5px 5px 8px 0px rgba(34, 60, 80, 0.5);
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    color: $colorText;
+    transition: 0.3s;
+    &:hover {
+      color: $colorBlue;
+    }
+    &:focus {
+      color: $colorBlue;
+    }
+  }
+
+  &__posts {
+    text-decoration: none;
+  }
+
+  &__body {
+    margin-bottom: 15px;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__btn {
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+}

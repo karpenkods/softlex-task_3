@@ -1,0 +1,31 @@
+@import '../../index.scss';
+
+.post {
+  &__heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  &__mail {
+    font-size: 18px;
+    font-weight: 700;
+    color: $colorText;
+    text-decoration: none;
+    transition: 0.3s;
+    &:hover {
+      color: $colorBlue;
+    }
+    &:focus {
+      color: $colorBlue;
+    }
+  }
+
+  &__name {
+    text-align: center;
+    margin: 0;
+    margin: 15px 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: $colorText;
+  }
+}

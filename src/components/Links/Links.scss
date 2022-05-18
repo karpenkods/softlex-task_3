@@ -1,0 +1,44 @@
+@import '../../index.scss';
+
+.links {
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  &__great {
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: $colorText;
+    transition: 0.3s;
+    &:hover {
+      color: $colorBlue;
+      box-shadow: 5px 5px 8px 0px rgba(34, 60, 80, 0.5);
+    }
+    &:active {
+      box-shadow: none;
+    }
+    &:focus {
+      color: $colorBlue;
+    }
+  }
+
+  &__user {
+    padding-top: 5px;
+    font-size: 18px;
+    color: $colorText;
+  }
+}
+
+@media (max-width: 768px) {
+  .links {
+    &__block {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+  }
+}
