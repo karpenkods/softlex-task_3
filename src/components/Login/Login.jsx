@@ -51,7 +51,7 @@ const Login = ({ setIsLogined }) => {
         <strong>ID пользователя</strong> - номер пользователя в системе (число
         от 0 до 10).
       </p>
-    </div>
+    </div>     
   )
 }
 

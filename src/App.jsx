@@ -43,10 +43,10 @@ const App = () => {
             )}
             {/* Дублирующий код ниже нужен для обновления страницы в браузере, 
             т.к. данные авторизации пока никуда не передаются  */}
-            {/* <Route path=":userId/posts" element={<PostList />} />
+            <Route path=":userId/posts" element={<PostList />} />
             <Route path=":userId/posts/:postId" element={<Post />} />
             <Route path=":userId/posts/new" element={<NewPost />} />
-            <Route path=":userId/posts/:postId/edit" element={<EditPost />} /> */}
+            <Route path=":userId/posts/:postId/edit" element={<EditPost />} />
           </Route>
         </Routes>
       </div>
