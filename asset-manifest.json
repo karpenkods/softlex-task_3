@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/softlex-task_3/static/css/main.0a1f613d.css",
-    "main.js": "/softlex-task_3/static/js/main.bd56dbba.js",
+    "main.js": "/softlex-task_3/static/js/main.9161331d.js",
     "static/media/roboto-v29-latin_cyrillic-700.woff": "/softlex-task_3/static/media/roboto-v29-latin_cyrillic-700.3b1c20c745bc4c9f1093.woff",
     "static/media/roboto-v29-latin_cyrillic-regular.woff": "/softlex-task_3/static/media/roboto-v29-latin_cyrillic-regular.90fc8764675b01c9cc05.woff",
     "static/media/roboto-v29-latin_cyrillic-700.woff2": "/softlex-task_3/static/media/roboto-v29-latin_cyrillic-700.4bdcfadc292241e3b817.woff2",
@@ -9,10 +9,10 @@
     "static/media/softlex.svg": "/softlex-task_3/static/media/softlex.40765722fe3391f7895fea8b5f70ab57.svg",
     "index.html": "/softlex-task_3/index.html",
     "main.0a1f613d.css.map": "/softlex-task_3/static/css/main.0a1f613d.css.map",
-    "main.bd56dbba.js.map": "/softlex-task_3/static/js/main.bd56dbba.js.map"
+    "main.9161331d.js.map": "/softlex-task_3/static/js/main.9161331d.js.map"
   },
   "entrypoints": [
     "static/css/main.0a1f613d.css",
-    "static/js/main.bd56dbba.js"
+    "static/js/main.9161331d.js"
   ]
 }
