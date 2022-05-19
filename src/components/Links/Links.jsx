@@ -10,7 +10,7 @@ const Links = ({ handleLogout }) => {
     <div className="links">
       {userId && (
         <div className="links__block">
-          <Link className="links__great" to={userId ? `/${userId}/posts` : '/'}>
+          <Link className="links__great" to={userId ? `/softlex-task_3/${userId}/posts` : '/softlex-task_3/'}>
             Главная
           </Link>
           <div className="links__user">

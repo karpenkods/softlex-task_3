@@ -21,7 +21,7 @@ const App = () => {
       <div className="container">
         <Routes>
           <Route
-            path="/"
+            path="/softlex-task_3"
             element={<Links handleLogout={() => setIsLogined(false)} />}
           >
             <Route
@@ -39,7 +39,7 @@ const App = () => {
                 />
               </>
             ) : (
-              <Route path="/" element={<Navigate to="login" />} />
+              <Route path="/softlex-task_3" element={<Navigate to="login" />} />
             )}
             {/* Дублирующий код ниже нужен для обновления страницы в браузере, 
             т.к. данные авторизации пока никуда не передаются  */}

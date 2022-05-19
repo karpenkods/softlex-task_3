@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 import './Login.scss'
 
 const Login = ({ setIsLogined }) => {
@@ -7,11 +8,14 @@ const Login = ({ setIsLogined }) => {
   const [id, setId] = useState('')
   const handleSubmit = () => {
     setIsLogined(true)
-    navigate(`/${id}/posts`)
+    navigate(`/softlex-task_3/${id}/posts`)
   }
 
   return (
     <div className="login">
+      <Helmet>
+        <title>{'Task_3 | Авторизация'}</title>
+      </Helmet>
       <h3 className="login__heading">Авторизация</h3>
       <form onSubmit={handleSubmit} className="login__form">
         <label>Логин</label>

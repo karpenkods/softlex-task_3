@@ -1,4 +1,5 @@
 import { useParams } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 import useComments from '../../hooks/comments.hook'
 import Loader from '../Loader/Loader'
 import './Post.scss'
@@ -20,6 +21,9 @@ const Post = () => {
 
   return (
     <div className="post">
+      <Helmet>
+        <title>{'Task_3 | Комментарии'}</title>
+      </Helmet>
       <h1 className="post__heading">Комментарии</h1>
       {comments.map(({ id, name, email, body }) => (
         <div key={id} className="list__blockPosts">

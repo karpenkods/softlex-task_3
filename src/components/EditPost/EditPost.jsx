@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useQueryClient } from 'react-query'
+import { Helmet } from 'react-helmet'
 import usePosts from '../../hooks/posts.hook'
 import '../NewPost/NewPost.scss'
 
@@ -41,6 +42,9 @@ const EditPost = () => {
 
   return (
     <div className="new">
+      <Helmet>
+        <title>{'Task_3 | Изменить пост'}</title>
+      </Helmet>
       <h1 className="post__heading">Изменить пост</h1>
       <form onSubmit={handleSubmit} className="login__form">
         <label>Пост</label>
