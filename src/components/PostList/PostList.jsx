@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Link, useParams, useNavigate } from 'react-router-dom'
-import { Helmet } from 'react-helmet'
 import usePosts from '../../hooks/posts.hook'
 import DeletePost from '../DeletePost/DeletePost'
 import Loader from '../Loader/Loader'
@@ -26,9 +25,6 @@ const PostList = () => {
 
   return (
     <div className="list">
-      <Helmet>
-        <title>{'Task_3 | Посты'}</title>
-      </Helmet>
       <div className="list__block">
         <h1 className="list__heading">Посты</h1>
         <button
